@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         context.beginPath();
         context.moveTo(lastX, lastY);
         context.lineTo(e.offsetX, e.offsetY);
-        context.strokeStyle = "#000";
+        context.strokeStyle = "#b60a0a";
         context.lineWidth = 5;
         context.lineCap = "round";
         context.lineJoin = "round";
